@@ -10,7 +10,7 @@ It contains only numerical input variables which are the result of a PCA transfo
 Given the class imbalance ratio, we recommend measuring the accuracy using the Area Under the Precision-Recall Curve (AUPRC). Confusion matrix accuracy is not meaningful for unbalanced classification.
 
 ## Solution
-![]()
+![](https://github.com/Aytantabriz/anomaly-detection/blob/main/Rplot1.png)
 For Solution used h2o.deeplearning() algorithm.
 ```
 h2o.deeplearning(x = names(train),
@@ -22,4 +22,4 @@ h2o.deeplearning(x = names(train),
                  l1 = 1e-4, 
                  epochs = 100)
 ```
-![]()
+![](https://github.com/Aytantabriz/anomaly-detection/blob/main/Rplot01.png)
